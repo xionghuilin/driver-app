@@ -1,0 +1,90 @@
+.aboutOurs{
+  img{margin:0px; padding:0px; width:100%;}
+  .content{
+    width:100%;
+    margin:0px;
+    padding:0px;
+  }
+  .content .text{
+    color:#767676;
+    line-height:26px;
+
+  }
+
+  .tatle {
+    color:#767676;
+    margin:1em;
+    padding:0px;
+    line-height:1.8em;
+  }
+
+
+  .tatle h3{
+    color:#252525;
+    padding:0;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .content p{
+    text-indent:2em;
+    margin:0px;
+    padding:0 0 0 0;
+  }
+  .contenFont-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .content_list{
+    margin: 1.5em 1em;
+  }
+
+  .content_list span { display:block;}
+
+  .content_list .Ption,.Ption2,.Ption3,.Ption4{
+    background: url(../img/about/about1.png) no-repeat;
+    background-size: 3.8em;
+    height:3.8em;
+    line-height:1.6em;
+    padding-left:4.2em;
+    padding-top: 4px;
+    font-size: 12px;
+    .PtionTitle{
+      display: block;
+      font-size: 15px;
+      color:#ff5f0f;
+    }
+  }
+
+  .content_list .Ption2{
+    background: url(../img/about/about2.png) no-repeat;
+    background-size: 3.8em;
+  }
+
+  .content_list .Ption3{
+    background: url(../img/about/about3.png) no-repeat;
+    background-size: 3.8em;
+  }
+
+  .content_list .Ption4{
+    background: url(../img/about/about4.png) no-repeat;
+    background-size: 3.8em;
+  }
+
+  .img_text{
+    padding:0px;
+    margin:0.5em 2em;
+    color:#767676;
+    font-size:0.7em;
+    line-height:2.4em;
+  }
+  .img_personal{
+    background:#f6f6f6;
+    padding:2em 2em 1em 2em;
+    font-size:0.7em;
+    line-height:2.4em;
+    color:#767676;
+  }
+  .img_personal img{ float:left; width:8em; height:8em; margin-right:1em}
+}

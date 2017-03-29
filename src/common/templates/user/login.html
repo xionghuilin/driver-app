@@ -1,0 +1,23 @@
+<ion-view hide-nav-bar="true" class="login">
+  <div class="bar bar-header bar-stable">
+    <div class="title">司機登入</div>
+    <div class="buttons buttons-right">
+      <span class="right-buttons">
+        <button class="button button-dark button-clear ion-ios-more icon-right" nav-button></button>
+      </span>
+    </div>
+  </div>
+  <ion-content scrollbar-y="false" class="has-header">
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="電話" ng-model="user.username">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="電郵" ng-model="user.email">
+      </label>
+    </div>
+    <button class="button button-block button-assertive">
+      登入
+    </button>
+  </ion-content>
+</ion-view>

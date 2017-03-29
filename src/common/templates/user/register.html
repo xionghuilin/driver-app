@@ -1,0 +1,53 @@
+<ion-view hide-nav-bar="true" class="register">
+  <div class="bar bar-header bar-stable">
+    <div class="title">註冊資料</div>
+    <div class="buttons buttons-right">
+      <span class="right-buttons">
+        <button class="button button-dark button-clear ion-ios-more icon-right" nav-button></button>
+      </span>
+    </div>
+  </div>
+  <ion-content scrollbar-y="false" class="has-header">
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="電話" ng-model="user.username">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="電郵" ng-model="user.englishName">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="香港身分證號碼" ng-model="user.IDCard">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="出生日期" ng-model="user.birth">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="住宅電話" ng-model="user.homePhone">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="手提電話" ng-model="user.telPhone">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="駕駛經驗(年牌)" ng-model="user.drivingAge">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="住址" ng-model="user.addr">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="車牌" ng-model="user.plate">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="中間封網(有/否/半)" ng-model="user.middleNetwork">
+      </label>
+    </div>
+    <div class="row">
+      <label for="van">Van仔</label>
+      <input type="radio" name="goodsVan" id="van" value="van" ng-model="user.goodsVan"/>
+      <label for="goods">貨車</label>
+      <input type="radio" name="goodsVan" id="goods" value="goods" ng-model="user.goodsVan"/>
+    </div>
+    <button class="button button-block button-assertive">
+      立即註冊
+    </button>
+  </ion-content>
+</ion-view>

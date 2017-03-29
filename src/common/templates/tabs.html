@@ -1,0 +1,37 @@
+<div class="tabs-icon-top tabs-bottom tabs-standard tabs-color-positive ">
+  <div class="tabs tab-nav">
+    <a class="tab-item" ng-class="{true:'tab-item-active', false: ''}[tabNav.curNav=='home']" ui-sref="home" nav-transition="none">
+      <i class="icon ion-aiya icon-home"></i>
+      <span  class="tab-title ">首页</span>
+    </a>
+    <a class="tab-item"  ng-class="{true:'tab-item-active', false: ''}[tabNav.curNav=='category']"  ui-sref="mainCategory" nav-transition="none">
+      <i class="icon ion-aiya icon-cf-c25"></i>
+      <span  class="tab-title ">分类</span>
+    </a>
+      <a src="javascript:;" class="tab-item activityBtn activityBtnColor"  ui-sref="article({id:117})">
+          <i class="icon ion-aiya icon-xiaoshoucuxiao"></i>
+          <span  class="tab-title ">促销活动</span>
+      </a>
+    <a class="tab-item"  ng-class="{true:'tab-item-active', false: ''}[tabNav.curNav=='brand']"  ui-sref="brand" nav-transition="none">
+      <i class="icon ion-aiya icon-icon4"></i>
+      <span  class="tab-title ">品牌库</span>
+    </a>
+
+
+
+    <!--<a class="tab-item"  ng-class="{true:'tab-item-active', false: ''}[tabNav.curNav=='toothOp']" ui-sref="toothOp" nav-transition="none">-->
+      <!--<i class="icon ion-aiya icon-tooth"></i>-->
+      <!--<span  class="tab-title ">齿研社</span>-->
+    <!--</a>-->
+<!--
+    <a class="tab-item" ng-class="{true:'tab-item-active', false: ''}[tabNav.curNav=='findAssistant']"  ui-sref="findAssistant" nav-transition="none">
+      <i class="icon" ng-class="{true: 'ion-ios-search-strong', false: 'ion-ios-search'}[tabNav.curNav=='findAssistant']"></i>
+      <span  class="tab-title ">找货助手</span>
+    </a>-->
+
+    <a class="tab-item" ng-class="{true:'tab-item-active', false: ''}[tabNav.curNav=='user']"  ui-sref="user" nav-transition="none">
+      <i class="icon ion-aiya icon-wo"></i>
+      <span  class="tab-title ">我的</span>
+    </a>
+  </div>
+</div>
